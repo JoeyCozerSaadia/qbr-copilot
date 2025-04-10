@@ -1,0 +1,21 @@
+streamlit
+pandas
+matplotlib
+seaborn
+openai
+google-cloud-bigquery
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+
+# ✅ 2. Move the file into your repo
+!mv requirements.txt qbr-copilot/
+
+# ✅ 3. Navigate into repo
+%cd qbr-copilot
+
+# ✅ 4. Commit and push to GitHub
+!git add requirements.txt
+!git commit -m "Add requirements.txt for Streamlit Cloud"
+!git push
